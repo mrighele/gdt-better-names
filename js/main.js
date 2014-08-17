@@ -8,7 +8,7 @@ var GameNameMod = {};
         },
         Aliens: {
             'nouns': ['Alien'],
-            'adjectives': ['Xeno']
+            'adjectives': ['Xeno', 'Space']
         },
         'Alternate history': {
             'nouns': ['New World'],
@@ -19,8 +19,8 @@ var GameNameMod = {};
             'adjectives': ['Trading', 'Shipping']
         },
         'City': {
-            'nouns': ['City', 'Town', 'Mayor', 'Cars'],
-            'adjectives': []
+            'nouns': ['City', 'Town', 'Mayor', 'Building', 'Architect'],
+            'adjectives': ['Modern', 'Ancient']
         },
         'Comedy': {
             'nouns': ['Fun'],
@@ -28,11 +28,11 @@ var GameNameMod = {};
         },
         'Cyberpunk': {
             'nouns': ['System', 'Transistor', 'Synapse'],
-            'adjectives': ['Electric', 'Punk', 'Dystopian' ]
+            'adjectives': ['Electric', 'Punk', 'Dystopian']
         },
         'Dance': {
-            'nouns': ['Dance', 'Floor', 'Stage'],
-            'adjectives': ['Dancing', 'Moving' ]
+            'nouns': ['Dance', 'Floor', 'Stage', 'Jump', 'Ballet'],
+            'adjectives': ['Dancing', 'Moving']
         },
         'Detective': {
             'nouns': ['Inquiry', 'Investigator'],
@@ -47,16 +47,16 @@ var GameNameMod = {};
             'adjectives': ['Genetic', 'Mutating']
         },
         'Fantasy': {
-            'nouns': ['Knight', 'Mage', 'Beholder' ],
+            'nouns': ['Knight', 'Mage', 'Beholder'],
             'adjectives': ['Mystic', 'Magic', ]
         },
         'Fashion': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Fashion', 'Dress'],
+            'adjectives': ['']
         },
         'Game Dev': {
-            'nouns': ['Game',],
-            'adjectives': []
+            'nouns': ['Game'],
+            'adjectives': ['']
         },
         'Government': {
             'nouns': ['Democracy', 'Despotism', 'Communist'],
@@ -64,79 +64,79 @@ var GameNameMod = {};
         },
         'Hacking': {
             'nouns': ['Firewall', 'Bug', 'Code'],
-            'adjectives': [ 'Hacking']
+            'adjectives': ['Hacking']
         },
         'History': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Middle Ages', 'Egypt', ],
+            'adjectives': ["Caesar's", ]
         },
         'Horror': {
             'nouns': ['Horror', 'Scream'],
             'adjectives': ['Horrific']
         },
         'Hospital': {
-            'nouns': [],
+            'nouns': ['Hospital', 'Doctor', 'Nurse'],
             'adjectives': []
         },
         'Hunting': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Hunt', 'Hunter'],
+            'adjectives': ['Deer', 'Wood', 'Desert']
         },
         'Law': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Law', 'Jury', 'Trial'],
+            'adjectives': ['Criminal']
         },
         'Life': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Life', 'Family'],
+            'adjectives': ['']
         },
         'Martial Arts': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Karate', 'Ju-jitsu', 'Tae-Kwon-Do', 'Boxing', 'Judo', 'Thai-boxe', 'Dojo'],
+            'adjectives': ['Lethal', 'Furious', 'Final']
         },
         'Medieval': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Castle', 'King', 'Princess', 'Prince', 'Queen'],
+            'adjectives': ['']
         },
         'Military': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Duty', 'Honor', 'War', 'Conflict', 'Hero', 'Glory', 'Stalingrad', 'Vietnam', 'Apocalypse'],
+            'adjectives': ['Medal of', 'Bloody', 'Pacific', 'Desert',  ]
         },
         'Movies': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Cinema', 'Movie', 'Star', 'Hollywood', 'Lumiere', ],
+            'adjectives': ['']
         },
         'Music': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Music', 'Rock', 'Metal', 'Band', 'Sound', 'Guitar', 'Drums', 'Piano', 'DJ'],
+            'adjectives': ['']
         },
         'Mystery': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Mysteries', 'Events'],
+            'adjectives': ['Silent', 'Foggy', 'Unknown']
         },
         'Ninja': {
-            'nouns': ['Ninja', 'Shinobi', ],
-            'adjectives': ['Invisible', ]
+            'nouns': ['Ninja', 'Shinobi', 'Secret', 'Katana', 'Shuriken', 'Kunai', 'Seal'],
+            'adjectives': ['Invisible', 'Hidden']
         },
         'Pirate': {
-            'nouns': ['Pirate', 'Caribbean', 'Galeon', 'Treasure'],
-            'adjectives': ['Caraibic']
+            'nouns': ['Pirate', 'Galeon', 'Treasure', 'Gold', 'Frigate', 'Admiral'],
+            'adjectives': ['Caribbean', 'Cursed', ]
         },
         'Post Apocalyptic': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Fallout', 'Winter', 'Waste', ],
+            'adjectives': ['Nuclear']
         },
         'Prison': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Alcatraz', 'Prisoner', 'Prison', 'Escape'],
+            'adjectives': ['Framed']
         },
         'Racing': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Car', 'Bike', 'Race'],
+            'adjectives': ['Hi-speed', 'Fast', 'Furious']
         },
         'Romance': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Love', 'Girlfriend', 'Boyfriend', 'Honey', 'Sugar'],
+            'adjectives': ['Lovely']
         },
         'Rhythm': {
             'nouns': [],
@@ -167,23 +167,23 @@ var GameNameMod = {};
             'adjectives': []
         },
         'Superheroes': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Man', 'Woman', 'Boy', 'Girl', 'Men', 'Women', 'Boys', 'Girls', 'Child', 'Children', ],
+            'adjectives': ['Super', 'Y-', 'Wonder', 'Hyper', 'Rat', 'Dog', 'Cat', 'Lizard', 'Mermaid', 'Shark']
         },
         'Surgery': {
-            'nouns': [],
+            'nouns': ['Surgeon', 'Nurse', 'Doctor'],
             'adjectives': []
         },
         'Time Travel': {
-            'nouns': [],
-            'adjectives': []
+            'nouns': ['Timeshift'],
+            'adjectives': ['Chrono']
         },
         'Transport': {
             'nouns': ['Transport', 'Railroad', 'Ship'],
             'adjectives': []
         },
         'UFO': {
-            'nouns': ['UFO'],
+            'nouns': ['UFO', 'Space', 'Invasion', ],
             'adjectives': ['Alien']
         },
         'Vampire': {
@@ -195,43 +195,61 @@ var GameNameMod = {};
             'adjectives': []
         },
         'Vocabulary': {
-            'nouns': ['Word', 'Letter', 'Alphabet', 'Grammar', 'Anagram', 'Crossword', 'Puzzle', 'Dictionary' ],
-            'adjectives': ['Mispelled' ]
+            'nouns': ['Word', 'Letter', 'Alphabet', 'Grammar', 'Anagram', 'Crossword', 'Puzzle', 'Dictionary'],
+            'adjectives': ['Mispelled', 'Scrambled']
         },
         'Werewolf': {
-            'nouns': ['Werewolf', 'Lycanthrope', 'Wolf Man', ],
-            'adjectives': ['Hideous']
+            'nouns': ['Werewolf', 'Lycanthrope', 'Wolf Man', 'Full Moon'],
+            'adjectives': ['Hideous', 'Cursed']
         },
         'Wild West': {
-            'nouns': ['West', 'Cowboy', 'Sheriff', 'Revolver'],
-            'adjectives': ['Wild']
+            'nouns': ['West', 'Cowboy', 'Sheriff', 'Revolver', 'Apache', 'Sioux', 'Comanche', 'Buffalo', 'Guns', 'Saloon', 'Geronimo', 'Ranch', 'Poker', 'Outlaw', 'Trail'],
+            'adjectives': ['Wild', 'Old', 'Indian', 'Wanted', 'Texas']
         },
 
         'Zombies': {
-            'nouns': ['Zombie'],
-            'adjectives': ['Undead', 'Dead']
+            'nouns': ['Zombie', 'Darkness', 'Hunger', 'Graveyard', 'Cemetery', 'Night', 'Flesh', 'Horror', 'Bite', 'Nightmare', 'Plague', 'Quarantine' ],
+            'adjectives': ['Undead', 'Dead', 'Deadly', 'Living', 'Decaying' ]
         }
     };
 
-    var genreWords= {
-        'Action': {'nouns' : ['Action', 'Run', 'Theft' ]},
-        'Adventure': {'nouns': ['Adventure', 'Tales'] },
-        'RPG': { 'nouns' : ['Scrolls'] },
-        'Simulation': {'nouns': ['Simulator', 'Manager']},
-        'Strategy': {'nouns': ['Campaign', ]},
-        'Casual':{'nouns':['Party']}
+    var genreWords = {
+        'Action': {
+            'nouns': ['Action', 'Run', 'Theft', 'Shooter', 'Massacre'],
+            'adjectives': []
+        },
+        'Adventure': {
+            'nouns': ['Adventure', 'Tales', 'Story'],
+            'adjectives': ['Mysterious']
+        },
+        'RPG': {
+            'nouns': ['Scrolls'],
+            'adjectives': []
+        },
+        'Simulation': {
+            'nouns': ['Simulator', 'Manager', 'Tycoon'],
+            'adjectives': []
+        },
+        'Strategy': {
+            'nouns': ['Campaign', 'Siege'],
+            'adjectives': ['Strategic']
+        },
+        'Casual': {
+            'nouns': ['Party'],
+            'adjectives': ['Family', 'Sugar', 'Candy']
+        }
     };
-        
+
     var self = this;
 
     var randInt = function(max) {
-        return Math.floor(Math.random()*max);
+        return Math.floor(Math.random() * max);
     };
 
     var randElement = function(items) {
-        return items[ randInt(items.length) ];
+        return items[randInt(items.length)];
     };
-    
+
     var randomTopicAdjective = function(topics) {
         var topic = randElement(topics);
         if (!topicWords[topic] || Math.random() < 0.2)
@@ -241,30 +259,40 @@ var GameNameMod = {};
 
     var randomTopicNoun = function(topics) {
         var topic = randElement(topics);
-        if (!topicWords[topic] )
+        if (!topicWords[topic])
             return null;
         return randElement(topicWords[topic].nouns);
     };
 
     var randomGenreNoun = function(genres) {
         var genre = randElement(genres);
-        if (!genreWords[genre] )
+        if (!genreWords[genre])
             return null;
         return randElement(genreWords[genre].nouns);
     };
-                
+    
+    var removeEmpty = function(array) {
+        var result = [];
+        for (var i=0; i<array.length; ++i) {
+            if (array[i] !== null && array[i].strip() !== '')
+                result.push(array[i]);
+        }
+        return result;
+    };
+
     var makeRandomGameName = function(topics, genres, platform) {
-        if (topics === [] || genres === [] ) {
+        if (topics === [] || genres === []) {
             return null;
         }
         var words = [randomTopicAdjective(topics), randomTopicNoun(topics), randomGenreNoun(genres)];
-        var title = words.join(' ');
+        words = removeEmpty(words);
+        var title = words.join(' ').strip();
         if (title == '')
             return null;
         return title;
     };
 
-    
+
 
     var selectedTopic;
     var selectedPlatform;
@@ -279,8 +307,9 @@ var GameNameMod = {};
     };
 
     var makeSequelTitle = function(parent) {
-        var tokens = parent.title.split(' ');
-        if (isNaN(tokens.last())) {
+        var tokens = parent.title.strip().split(' ');
+        var last = tokens.last().strip();
+        if (last == '' || isNaN(last)) {
             tokens.push("2");
         } else {
             var n = parseInt(tokens.last()) + 1;
@@ -330,7 +359,7 @@ var GameNameMod = {};
     var oldPickTopicClick = UI.pickTopicClick;
     UI.pickTopicClick = function(a) {
         var result = oldPickTopicClick(a);
-        if (a && a!=="research") {
+        if (a && a !== "research") {
             selectedTopic = a.innerText.split('\n')[0];
             var title = makeRandomGameName([selectedTopic], [selectedGenre], selectedPlatform);
             updateGameTitle(currentGame, title);
