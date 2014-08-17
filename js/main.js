@@ -274,7 +274,7 @@ var GameNameMod = {};
     var removeEmpty = function(array) {
         var result = [];
         for (var i=0; i<array.length; ++i) {
-            if (array[i] !== null && array[i].strip() !== '')
+            if (array[i] !== null && array[i].trim() !== '')
                 result.push(array[i]);
         }
         return result;
@@ -286,7 +286,7 @@ var GameNameMod = {};
         }
         var words = [randomTopicAdjective(topics), randomTopicNoun(topics), randomGenreNoun(genres)];
         words = removeEmpty(words);
-        var title = words.join(' ').strip();
+        var title = words.join(' ').trim();
         if (title == '')
             return null;
         return title;
