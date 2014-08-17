@@ -12,8 +12,14 @@ Sequels are handled differently. The mod will try to use a game number scheme
 (GameName, GameName 2, GameName 3) and won't change the name even if you change 
 topic or genre.
 
-BUGS/TODO
-=========
+## Disclaimer
+
+This is just the result of a few hours of patchwork, and it is the equivalent of 
+sharpening a pencil with a chainsaw.
+It shouldn't be able to do any damage to your savegames though, so at most you will
+have to disable it.
+
+## BUGS/TODO
 
 A lot :).
 
