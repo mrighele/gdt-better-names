@@ -1,0 +1,12 @@
+{
+    "id": "GameNameMod",
+    "name": "Game Name Mod",
+    "version": "0.0.1",
+    "author": "Marco Righele <marco@righele.it>",
+    "url": "https://github.com/mrighele/game-name-mod",
+    "description": "Mod that generates better random names than the defaul Game #N.",
+    "main": "./main.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    }
+}
